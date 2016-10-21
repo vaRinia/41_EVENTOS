@@ -1,0 +1,53 @@
+
+.text-verde{
+	color: olive !important;
+}
+.mg-b-1 {
+	margin-bottom: 1%;
+}
+.bg-verdecito {
+	background-color: #DAF7A6;
+}
+i {
+	text-align: right;
+}
+.tachado {
+	text-decoration: line-through;
+	background-color: rgb(215,215,215);
+	margin-bottom: 1%;
+	padding-left: 2%;
+	list-style: none;
+}
+.w-80 {
+	width: 95%;
+}
+
+@media screen and (max-width: 768px) {
+    ul {
+	font-size: 1.1em;
+	}
+	.mg-b-2 {
+		margin-bottom: 1%;
+	}
+	.mg-t-100 {
+		margin-top: 240px;
+	}
+	nav {
+		height: 230px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+    ul {
+	font-size: 1.5em;
+	}
+	.mg-b-2 {
+		margin-bottom: 2%;
+	}
+	.mg-t-100 {
+		margin-top: 280px;
+	}
+	nav {
+		height: 270px;
+	}
+}
