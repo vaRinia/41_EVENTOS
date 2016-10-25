@@ -1,0 +1,48 @@
+body {
+	font-family: 'Hind Madurai', sans-serif;
+	font-size: 1.6em;
+}
+h1 {
+	color: lightgray;
+	font-weight: bolder;
+	font-size: 3em;
+	font-family: 'Lakki Reddy', cursive;
+}
+
+h2 {
+	color: white;
+}
+.box-lista {
+	background-color: #0CC655; 
+	padding: 1%;
+	margin-bottom: 2%;
+}
+.box-tarjeta {
+	background-color: #0EDC5F; 
+	padding: 2%;
+	margin-bottom: 2%;
+}
+textarea {
+	width: 100%;
+}
+.mg-b-10 {
+	margin-bottom: 10px;
+}
+.mg-l-20 {
+	margin-left: 20px;
+}
+.bg-negro {
+	background-color: rgb(0,0,0);
+}/*#000000*/
+.mg-b-1 {
+	margin-bottom: 1%;
+}
+
+.tachado {
+	text-decoration: line-through;
+	background-color: rgb(215,215,215);
+	margin-bottom: 1%;
+	padding-left: 2%;
+	list-style: none;
+}
+
