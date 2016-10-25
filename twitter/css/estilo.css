@@ -14,8 +14,8 @@ i {
 .tachado {
 	text-decoration: line-through;
 	background-color: rgb(215,215,215);
-	margin-bottom: 1%;
-	padding-left: 2%;
+	margin-bottom: 3px;
+	padding: 1%;
 	list-style: none;
 }
 .w-80 {

@@ -45,4 +45,7 @@ textarea {
 	padding-left: 2%;
 	list-style: none;
 }
+.inline {
+	display: inline-block;
+}
 

@@ -13,9 +13,11 @@ function agregarTareas() {
 	nuevaTarea.appendChild(check);
 	nuevaTarea.appendChild(texto);
 	var basura = document.createElement("span");
-	basura.setAttribute("class", "fa fa-trash-o");
+	basura.setAttribute("class", "fa fa-trash-o pull-right");
 	nuevaTarea.appendChild(basura);
 	document.getElementById("toDoList").appendChild(nuevaTarea);
+	
+	document.getElementById("toDoInput").value = "";
 	
 	basura.onclick = function () {
 	nuevaTarea.parentElement.removeChild(nuevaTarea);
@@ -28,4 +30,5 @@ function agregarTareas() {
 			texto.parentElement.setAttribute("class","list-group-item mg-b-1 bg-verdecito");
 		}
 	};
+
 };
