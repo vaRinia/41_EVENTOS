@@ -3,7 +3,7 @@ body {
 	font-size: 1.6em;
 }
 h1 {
-	color: lightgray;
+	color: #0DCC58;
 	font-weight: bolder;
 	font-size: 3em;
 	font-family: 'Lakki Reddy', cursive;
@@ -13,12 +13,12 @@ h2 {
 	color: white;
 }
 .box-lista {
-	background-color: #0CC655; 
+	background-color: #0DCC58; 
 	padding: 1%;
 	margin-bottom: 2%;
 }
 .box-tarjeta {
-	background-color: #0EDC5F; 
+	background-color: #0BF166; 
 	padding: 2%;
 	margin-bottom: 2%;
 }
@@ -49,3 +49,11 @@ textarea {
 	display: inline-block;
 }
 
+/*.scroll {
+	overflow-x: scroll;
+	overflow-y: scroll;
+	height: 600px;
+	white-space: nowrap;
+
+	/*revisar, agregar a section aparentemente*/
+}*/
